@@ -1,0 +1,13 @@
+<h1>Dbz Personajes</h1>
+<hr>
+<div class="row">
+  <div class="col">
+    <listado-dbz-page [characterList]="characters"></listado-dbz-page>
+  </div>
+
+
+  <div class="col">
+    {{characters}}
+    <app-agregar-dbz-page (onNewCharacter)="onNewCharacter($event)"></app-agregar-dbz-page>
+  </div>
+</div>
