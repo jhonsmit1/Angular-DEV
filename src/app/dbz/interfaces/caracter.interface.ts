@@ -1,6 +1,7 @@
 
 
-export interface Caracter{
-  name:string,
-  power:number
+export interface Caracter {
+  id?: string,
+  name: string,
+  power: number
 }
